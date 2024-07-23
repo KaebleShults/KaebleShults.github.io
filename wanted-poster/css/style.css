@@ -155,7 +155,7 @@ section {
 
 /* Styling for the main container */
 main {
-    background: url('images/crumpled-paper.png') no-repeat center center fixed;
+    background: url('images/wrinkled-white-paper-background.jpg') no-repeat center center fixed;
     background-size: cover;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     margin: 2rem auto;
