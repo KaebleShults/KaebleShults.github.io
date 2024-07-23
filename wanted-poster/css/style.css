@@ -62,10 +62,20 @@ body {
     background: #f0f0f0;
 }
 
+/* Specific Styles for "WANTED" heading */
+h1 {
+    font-size: 4rem;
+    color: #a30000;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    margin: 1rem 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
 /* Headings */
-h1, h2, h3, h4 {
+h2, h3, h4, h5 {
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-    color: #c00;
+    color: #a30000;
     font-family: 'Arial Black', Gadget, sans-serif;
     margin: 1rem 0;
     text-align: center;
@@ -109,6 +119,10 @@ h5 {
 /* Sections and Paragraphs */
 section {
     margin-top: 0.5rem;
+    padding: 1rem;
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 p {
@@ -121,6 +135,7 @@ p {
 /* Figure and Image */
 figure {
     margin-bottom: 2rem;
+    text-align: center;
 }
 
 figcaption {
@@ -132,6 +147,8 @@ img {
     width: 100%;
     margin: 0 auto;
     max-width: 50rem;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 /* Footer */
@@ -155,7 +172,7 @@ section {
 
 /* Styling for the main container */
 main {
-    background: url('images/wrinkled-white-paper-background.jpg') no-repeat center center fixed;
+    background: url('../images/wrinkled-white-paper-background.jpg') no-repeat center center fixed;
     background-size: cover;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     margin: 2rem auto;
