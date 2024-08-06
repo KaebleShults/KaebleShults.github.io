@@ -173,18 +173,21 @@ body {
 }
 
 button.subscribe-button {
-    background-color: #333;
-    color: white;
+    background-color: #1a2a41; /* Dark blue background color */
+    color: #fff; /* White text color */
     border: none;
     padding: 0.9375rem 1.25rem; /* 15px 20px */
     cursor: pointer;
     transition: background-color 0.3s;
     margin-top: 1.25rem; /* 20px */
-    text-align: left;
+    text-align: center;
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Shadow effect */
+    font-weight: bold;
 }
 
 button.subscribe-button:hover {
-    background-color: #575757;
+    background-color: #3b4a6b; /* Slightly lighter blue on hover */
     text-align: left;
 }
 
