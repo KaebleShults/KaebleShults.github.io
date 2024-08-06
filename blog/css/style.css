@@ -48,12 +48,15 @@
 
 /* ------ START WRITING YOUR CODE BELOW ------ */
 /* Typography */
+/* Define the custom font using @font-face */
 @font-face {
     font-family: 'Ultra';
-    src: url('../fonts/serif/ultra-regular.ttf') format('truetype');
+    src: url('../fonts/ultra-regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
+
+/* Typography */
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -70,11 +73,14 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Ultra', sans-serif; /* Apply the custom font to the header */
 }
 
 .header h1 {
     font-size: 2.5rem; /* 40px */
     margin: 0;
+    display: flex;
+    align-items: center;
 }
 
 .header span {
@@ -86,7 +92,13 @@ body {
     font-size: 2.5rem; /* 40px */
     margin: 0 0.5rem;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-    font-family: 'Ultra', serif;
+    font-family: 'Ultra', sans-serif; /* Apply the custom font */
+}
+
+.header span.charcoal {
+    background-color: #6D2239; /* Adjust background color to match */
+    color: #f2ead3; /* Adjust text color to match */
+    transform: rotate(-5deg);
 }
 
 .navbar {
@@ -191,6 +203,7 @@ button.subscribe-button {
     border-radius: 5px; /* Rounded corners */
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Shadow effect */
     font-weight: bold;
+    font-family: 'Ultra', sans-serif; /* Apply the custom font */
 }
 
 button.subscribe-button:hover {
