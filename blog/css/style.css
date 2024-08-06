@@ -48,6 +48,12 @@
 
 /* ------ START WRITING YOUR CODE BELOW ------ */
 /* Typography */
+@font-face {
+    font-family: 'Ultra';
+    src: url('../fonts/serif/ultra-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -80,6 +86,7 @@ body {
     font-size: 2.5rem; /* 40px */
     margin: 0 0.5rem;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    font-family: 'Ultra', serif;
 }
 
 .navbar {
