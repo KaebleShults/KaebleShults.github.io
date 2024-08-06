@@ -85,7 +85,7 @@ body {
 
 .header span {
     display: inline-block;
-    background-color: #8B1C62; /* Dark red/purple color */
+    background-color: #800f2b; /* Dark red/purple color */
     color: #fff;
     padding: 0.5rem 1rem;
     transform: rotate(-5deg);
@@ -99,6 +99,7 @@ body {
     background-color: #6D2239; /* Adjust background color to match */
     color: #f2ead3; /* Adjust text color to match */
     transform: rotate(-5deg);
+    letter-spacing: .2rem;
 }
 
 .navbar {
