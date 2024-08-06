@@ -100,4 +100,18 @@ body {
     height: auto;
 }
 
+img.full-width {
+    width: 100%;
+    height: auto;
+}
 
+.img-gallery {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.25rem; /* 20px */
+}
+
+.img-gallery img {
+    width: 30%;
+    height: auto;
+}
