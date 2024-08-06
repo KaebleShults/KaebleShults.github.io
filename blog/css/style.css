@@ -49,6 +49,7 @@
 /* ------ START WRITING YOUR CODE BELOW ------ */
 /* Typography */
 /* Define the custom font using @font-face */
+/* Define the custom font using @font-face */
 @font-face {
     font-family: 'Ultra';
     src: url('../fonts/ultra-regular.ttf') format('truetype');
@@ -67,13 +68,13 @@ body {
 
 .header {
     text-align: center;
-    padding: 1.25rem; 
+    padding: 1.25rem;
     background-color: #f8f8f8;
     border-bottom: 0.125rem solid #ddd;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Ultra', serif;
+    font-family: 'Ultra', sans-serif;
 }
 
 .header .tilted-text {
@@ -97,7 +98,7 @@ body {
     font-size: 2.5rem;
     margin: 0 0.5rem;
     box-shadow: 0.125rem 0.125rem 0.3125rem rgba(0, 0, 0, 0.3);
-    font-family: 'Ultra', serif;
+    font-family: 'Ultra', sans-serif;
 }
 
 .header span.charcoal {
@@ -118,7 +119,7 @@ body {
 }
 
 .navbar li {
-    margin: 0 0.9375rem;
+    margin: 0 1.25rem; /* Adjusted margin for equal spacing */
 }
 
 .navbar a {
