@@ -48,7 +48,6 @@
 
 /* ------ START WRITING YOUR CODE BELOW ------ */
 /* Typography */
-/* Define the custom font using @font-face */
 @font-face {
     font-family: 'Ultra';
     src: url('../fonts/ultra-regular.ttf') format('truetype');
@@ -73,7 +72,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Ultra', sans-serif; /* Apply the custom font to the header */
+    font-family: 'Ultra', serif; /* Apply the custom font to the header */
 }
 
 .header h1 {
@@ -92,7 +91,7 @@ body {
     font-size: 2.5rem; /* 40px */
     margin: 0 0.5rem;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-    font-family: 'Ultra', sans-serif; /* Apply the custom font */
+    font-family: 'Ultra', serif; /* Apply the custom font */
 }
 
 .header span.charcoal {
