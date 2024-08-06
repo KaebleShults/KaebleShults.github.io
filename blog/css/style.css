@@ -1,0 +1,103 @@
+/* TO GET AN IDEA OF THE CSS YOU WILL LIKELY BE USING, SEE THE LISTS BELOW. */
+
+        /* 
+        
+        Spacing 
+
+            - padding (shorthand and/or specific properties like padding-bottom, etc.)
+
+            - margin, (shorthand and/or specific properties like margin-top, etc.)
+
+            - letter-spacing, word-spacing, line-height
+
+            - width, max-width, min-width
+            - height, max-height, min-height
+
+        Typography 
+
+            - font-family, font-size, font-style, font-weight
+
+            - text-decoration, text-align
+
+            - color
+
+            - text-shadow, text-transform
+
+        Box, Layout and Border 
+
+            - border (shorthand and/or specific properties like border-top, border-bottom-radius, border-width, etc.)
+
+            - box-shadow
+
+            - display, float, align-items, align-content
+
+            - grid-template-columns, grid-column-gap
+
+            - transform
+
+        Other
+
+            - :nth()-child (to target specific child elements)
+
+            - :focus, :hover, :active (to target link states)
+
+            - @font-face or @import (to import typefaces)
+
+        */
+
+
+/* ------ START WRITING YOUR CODE BELOW ------ */
+/* Typography */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.header {
+    text-align: center;
+    padding: 1.25rem; /* 20px */
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.navbar li {
+    margin: 0 0.9375rem; /* 15px */
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+.content {
+    display: flex;
+    margin: 1.25rem; /* 20px */
+}
+
+.main-content {
+    flex: 2;
+    margin-right: 1.25rem; /* 20px */
+}
+
+.sidebar {
+    flex: 1;
+}
+
+.footer {
+    text-align: center;
+    padding: 1.25rem; /* 20px */
+    background: #f1f1f1;
+    margin-top: 1.25rem; /* 20px */
+}
+
+.footer img {
+    max-width: 100%;
+    height: auto;
+}
+
+
