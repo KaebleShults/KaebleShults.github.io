@@ -87,8 +87,10 @@ body {
     justify-content: center;
     list-style: none;
     padding: 0;
-    background-color: #333;
+    background-color: #fff; /* White background */
     margin: 0;
+    border-top: 1px solid #ddd; /* Top border */
+    border-bottom: 1px solid #ddd; /* Bottom border */
 }
 
 .navbar li {
@@ -97,13 +99,15 @@ body {
 
 .navbar a {
     text-decoration: none;
-    color: white;
+    color: #1a2a41; /* Dark blue text color */
     padding: 0.625rem; /* 10px */
     display: block;
+    font-weight: bold;
 }
 
 .navbar a:hover {
-    background-color: #575757;
+    color: #333; /* Dark gray text color on hover */
+    border-bottom: 2px solid #1a2a41; /* Bottom border on hover */
 }
 
 .content {
