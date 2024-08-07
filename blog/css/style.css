@@ -48,8 +48,6 @@
 
 /* ------ START WRITING YOUR CODE BELOW ------ */
 /* Typography */
-/* Define the custom font using @font-face */
-/* Define the custom font using @font-face */
 @font-face {
     font-family: 'Ultra';
     src: url('../fonts/ultra-regular.ttf') format('truetype');
@@ -185,16 +183,26 @@ body {
     margin-top: 1.25rem;
 }
 
-.img-gallery img {
-    width: 30%;
+.img-container {
+    text-align: center;
+}
+
+.img-container img {
+    width: 100%;
     height: auto;
     border: 0.125rem solid #ddd;
     padding: 0.625rem;
     transition: transform 0.3s;
 }
 
-.img-gallery img:hover {
+.img-container img:hover {
     transform: scale(1.05);
+}
+
+.img-container .caption {
+    margin-top: 0.5rem;
+    font-size: 0.875rem;
+    color: #666;
 }
 
 button.subscribe-button {
